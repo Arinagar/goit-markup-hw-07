@@ -104,21 +104,15 @@ img {
 }
 
 .header .logo,
-.current,
-.p-link,
-.c-link,
+.nav__list__item__link,
 .mail,
 .tel,
-.s-link,
 .contact {
 	text-decoration: none;
 }
 
 .header .logo,
-.current,
-.p-link,
-.c-link,
-.s-link {
+.nav__list__item__link {
 	color: var(--main-color);
 
 	transition-property: color;
@@ -161,12 +155,12 @@ img {
 	color: var(--first-color);
 }
 
-.a-tohover:hover,
-.a-tohover:focus {
+.nav__list__item__link:hover,
+.nav__list__item__link:focus {
 	color: var(--first-color);
 }
 
-.nav__item {
+.nav__list__item {
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
