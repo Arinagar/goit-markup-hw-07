@@ -25,9 +25,10 @@
 .location .logo {
 	color: var(--fourth-color);
 	margin-bottom: 20px;
-}
-.location .logo:visited {
-	color: var(--fourth-color);
+
+	&:visited {
+		color: var(--fourth-color);
+	}
 }
 
 .address__list__item__coor {
@@ -36,11 +37,11 @@
 	transition-property: color;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.address__list__item__coor:hover,
-.address__list__item__coor:focus {
-	color: var(--first-color);
+	&:hover,
+	&:focus {
+		color: var(--first-color);
+	}
 }
 
 .address__list__item__mail,
@@ -50,11 +51,11 @@
 	transition-property: color;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer .tel:hover,
-.footer .tel:focus {
-	color: var(--first-color);
+	&:hover,
+	&:focus {
+		color: var(--first-color);
+	}
 }
 
 .address__list__item__coor,
