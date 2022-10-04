@@ -17,7 +17,7 @@
 .footer .logo,
 .mail,
 .tel,
-.address__list__item__coor,
+.address__item__coor,
 .portfolio-list__project-card {
 	text-decoration: none;
 }
@@ -31,7 +31,7 @@
 	}
 }
 
-.address__list__item__coor {
+.address__item__coor {
 	color: var(--fourth-color);
 
 	transition-property: color;
@@ -44,8 +44,8 @@
 	}
 }
 
-.address__list__item__mail,
-.address__list__item__tel {
+.address__item__mail,
+.address__item__tel {
 	color: var(--third-color);
 
 	transition-property: color;
@@ -58,14 +58,14 @@
 	}
 }
 
-.address__list__item__coor,
-address__list__item__mail,
-address__list__item__tel {
+.address__item__coor,
+address__item__mail,
+address__item__tel {
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 }
-.address__list__item + .address__list__item {
+.address__item + .address__item {
 	margin-top: 9px;
 }
 

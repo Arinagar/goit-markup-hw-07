@@ -4,7 +4,7 @@
 }
 
 .header .logo,
-.nav__list__item__link,
+.nav-list__link,
 .mail,
 .tel,
 .contact {
@@ -12,7 +12,7 @@
 }
 
 .header .logo,
-.nav__list__item__link {
+.nav-list__link {
 	color: var(--main-color);
 
 	transition-property: color;
@@ -55,12 +55,12 @@
 	color: var(--first-color);
 }
 
-.nav__list__item__link:hover,
-.nav__list__item__link:focus {
+.nav-list__link:hover,
+.nav-list__link:focus {
 	color: var(--first-color);
 }
 
-.nav__list__item {
+.nav-list__item {
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;

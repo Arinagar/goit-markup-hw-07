@@ -16,7 +16,7 @@
 	gap: 10px;
 }
 
-.social-container__list__link {
+.social-container__link {
 	color: var(--fourth-color);
 	background-color: var(--fourth-background-color);
 	border-radius: 50%;
@@ -37,6 +37,6 @@
 	}
 }
 
-.social-container__list__link__icon {
+.social-container__icon {
 	fill: currentColor;
 }
